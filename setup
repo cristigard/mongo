@@ -1,0 +1,4 @@
+#add server ip where mongo is installed to /etc/mongod.conf for external access
+net:
+  port: 27017
+  bindIp: 127.0.0.1,192.168.88.187  # Enter 0.0.0.0,:: to bind to all IPv4 and IPv6 addresses or, alternatively, use the net.bindIpAll setting.
