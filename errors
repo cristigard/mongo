@@ -1,0 +1,3 @@
+#if mongod wont start and error:
+{"t":{"$date":"2023-06-30T02:08:32.024-04:00"},"s":"E",  "c":"NETWORK",  "id":23024,   "ctx":"initandlisten","msg":"Failed to unlink socket file","attr":{"path":"/tmp/mongodb-27017.sock","error":"Operation not permitted"}}
+solution: delete /tmp/mongodb-27017.sock and restart mongod
